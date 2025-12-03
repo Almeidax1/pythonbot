@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Token do seu bot
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '8264304458:AAFxYye-sNy4MX8jkbB5R3Vjbs4-seicPAw'
 
 # Lista para armazenar mensagens
 mensagens = []
@@ -33,3 +33,4 @@ dp.add_handler(MessageHandler(Filters.text & ~Filters.command, receber_mensagem)
 print("Bot em execução...")
 updater.start_polling()
 updater.idle()
+
