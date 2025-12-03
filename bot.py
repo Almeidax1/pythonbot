@@ -34,3 +34,4 @@ print("Bot em execução...")
 updater.start_polling()
 updater.idle()
 
+
